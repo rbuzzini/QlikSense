@@ -52,7 +52,7 @@ Quantity, Value, Date
 Rename Fields using [Map_Rename];
 ```
 
-*Orders* table will have Qty, ContractValue and OrderDate as column names.
+*Orders* table will have *Qty*, *ContractValue* and *OrderDate* as column names.
 
 
 # 2 - Rename Table statement
