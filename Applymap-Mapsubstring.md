@@ -17,21 +17,3 @@ Parameters:
 
 Syntax:
 `MapSubstring('map_name', expression)`
-
-
-# 2 - Rename Field statement
-
-This script function renames one or more existing fields after they are already loaded.
-
-It is possible to use both `Rename Field` and `Rename Fields` syntax.
-Syntax:
-- `Rename Field (using mapname | oldname to newname{ , oldname to newname })`
-- `Rename Fields (using mapname | oldname to newname{ , oldname to newname })`
-
-Parameters:
-- `mapname`: mapping table previously loaded, containing one or multiple couples
-of field names obsolete or new.
-- `oldname`: obsolete field names
-- `newname`: new field name
-
-*Keep in mind: it is not possible to rename to field in so they have the same name*
